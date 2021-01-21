@@ -5,7 +5,7 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import AboutMeComponent from "../components/content/AboutMeComponent";
+import { AboutMeComponent } from "../components/content/AboutMeComponent";
 import { ContactComponent } from "../components/content/ContactComponent";
 import { PortafolioComponent } from "../components/content/PortafolioComponent";
 import { NavBarComponent } from "../components/ui/NavBarComponent";
@@ -14,7 +14,7 @@ import { NavBarComponent } from "../components/ui/NavBarComponent";
 export const AppRouter = () => {
 	return (
 		<Router>
-			<div>
+			<>
 				<NavBarComponent />
 
 				<Switch>
@@ -24,7 +24,7 @@ export const AppRouter = () => {
 
 					<Redirect to="/aboutMe" />
 				</Switch>
-			</div>
+			</>
 		</Router>
 	)
 }
