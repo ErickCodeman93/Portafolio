@@ -34,8 +34,8 @@
 	.btn-secondary,
 	.btn-secondary:hover,
 	.btn-secondary:focus {
-	color: #333;
-	text-shadow: none; /* Prevent inheritance from `body` */
+		color: #333;
+		text-shadow: none; /* Prevent inheritance from `body` */
 	}
 
 
@@ -50,7 +50,7 @@
 	}
 
 	.cover-container {
-	max-width: 42em;
+		max-width: 42em;
 	}
 
 
@@ -59,11 +59,11 @@
 	*/
 
 	.nav-masthead .nav-link {
-	padding: .25rem 0;
-	font-weight: 700;
-	color: rgba(255, 255, 255, .5);
-	background-color: transparent;
-	border-bottom: .25rem solid transparent;
+		padding: .25rem 0;
+		font-weight: 700;
+		color: rgba(255, 255, 255, .5);
+		background-color: transparent;
+		border-bottom: .25rem solid transparent;
 	}
 
 	/* .nav-masthead .nav-link:focus */
@@ -71,29 +71,35 @@
 	border-bottom-color: rgba(255, 255, 255, .25);
 	}
 
+	.nav-icons{
+		a{
+			color: white;
+		}
+	}
+
 	.nav-icons > :not(span){
-	cursor: pointer;
+		cursor: pointer;
 	}
 
 	.nav-icons:hover > :not(span){
-	color: #fff;
+		color: rgba(255,255,255,.25);
 	}
 
 	.nav-masthead .nav-link + .nav-link {
-	margin-left: 1rem;
+		margin-left: 1rem;
 	}
 
 	.nav-masthead .active {
-	color: #fff;
-	border-bottom-color: #fff;
+		color: #fff;
+		border-bottom-color: #fff;
 	}
 
 	.m-bottom-nav{
-	margin-bottom: 4rem;
+		margin-bottom: 4rem;
 	}
 
 	.m-top-footer{
-	margin-top: 10rem;
+		margin-top: 10rem;
 	}
 
 	#imgtech {
@@ -106,54 +112,82 @@
 	}
 
 	#imgtech2 {
-	position: absolute;
-	left: 104px;
-	top: 89px;
-	width: 34%;
-	z-index: -1;
-	opacity: .1;
+		position: absolute;
+		left: 104px;
+		top: 89px;
+		width: 34%;
+		z-index: -1;
+		opacity: .1;
 	}
 
 	.aboutUseContainer{
-	height: 70vh;
+		height: 70vh;
 	}
 
 	.circular--square {
-	width: 50%;
-	border-top-left-radius: 50% 50%;
-	border-top-right-radius: 50% 50%;
-	border-bottom-right-radius: 50% 50%;
-	border-bottom-left-radius: 50% 50%;
+		width: 50%;
+		border-top-left-radius: 50% 50%;
+		border-top-right-radius: 50% 50%;
+		border-bottom-right-radius: 50% 50%;
+		border-bottom-left-radius: 50% 50%;
 	}
 
 	.image-cropper {
-	width: 230px;
-	height: 230px;
-	position: relative;
-	overflow: hidden;
-	border-radius: 50%;
+		width: 230px;
+		height: 230px;
+		position: relative;
+		overflow: hidden;
+		border-radius: 50%;
 	}
 
 	.profile-pic {
-	display: inline;
-	margin: 0 auto;
-	margin-left: -25%; 
-	height: 100%;
-	width: auto;
+		display: inline;
+		margin: 0 auto;
+		margin-left: -25%; 
+		height: 100%;
+		width: auto;
 	}
 
 	#img-about-me{
-	position: absolute;
-	top: -20px;
-	width: 86%;
-	z-index: -1;
-	left: -146px;
-	opacity: .3;
+		position: absolute;
+		top: -20px;
+		width: 86%;
+		z-index: -1;
+		left: -146px;
+		opacity: .3;
 	}
 
 	#perfil2{
 		width:320px;
 	}
+
+	#contact-list{
+		list-style: none;
+		font-size: 20px;
+
+		li{
+			a{
+				text-decoration: auto;
+				color: white;
+				&:hover{
+					 color: rgba(255,255,255,.5);
+					 text-decoration: underline;
+				}
+			}
+		}
+	}
+
+	#download-cv{
+		a{
+			text-decoration: auto;
+			color: white;
+			&:hover{
+				 color: rgba(255,255,255,.5);
+				 text-decoration: underline;
+			}
+		}
+	}
+
 }
 
 @media #{$phone}{
