@@ -26,7 +26,7 @@ export const NavBarComponent = () => {
 		<div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column m-bottom-nav">
 			<header className="mb-auto">
 				<div>
-					<h3 className="float-md-start mb-0">
+					<h3 className="float-md-start mb-sm-2 text-center">
 						<Link 
 							className="navbar-brand text-white" 
 							to="/"
