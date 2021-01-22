@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
 import React, { useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
@@ -47,12 +47,12 @@ export const NavBarComponent = () => {
 		<div className="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column m-bottom-nav">
 			<header className="mb-auto">
 				<div>
-					<h3 className="float-md-start mb-sm-2 text-center">
+					<h3 id="text-name-nav" className="float-md-start mb-sm-2 text-center">
 						<Link 
 							className="navbar-brand text-white" 
 							to="/"
 						>
-							Erick Alva
+							<img id="img-logo-nv" src={'./assets/erick.png'} alt="Logo"/> Erick Alva
 						</Link>						
 					</h3>
 					<nav className="nav nav-masthead justify-content-center float-md-end">

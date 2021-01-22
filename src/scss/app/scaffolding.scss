@@ -71,6 +71,14 @@
 	border-bottom-color: rgba(255, 255, 255, .25);
 	}
 
+	#text-name-nav{
+		display: contents;
+	}
+
+	#img-logo-nv{
+		width: 5%;
+	}
+
 	.nav-icons{
 		a{
 			color: white;
@@ -188,9 +196,69 @@
 		}
 	}
 
+	#image-download-cv{
+		width: 19%;
+		opacity: 0.8;
+	}
+
+	.up{
+		cursor: pointer;
+	}
+
+	// carousel
+
+	.card{
+		-webkit-box-shadow: 0px 12px 20px -4px rgba(136,137,138,0.66);
+		-moz-box-shadow: 0px 12px 20px -4px rgba(136,137,138,0.66);
+		box-shadow: 0px 12px 20px -4px rgba(136,137,138,0.66);
+	}
+
+	.card-text-portafolio{
+		color: rgba(0,0,0,0.85);
+		text-shadow: none;
+		text-align: justify;
+	}
+
+	.card-img-top{
+		height: 230px;
+	}
+
+	.card-body{
+		height: 260px;
+		h1, h2, h3, h4, h5, h6{
+			color: rgba(0,0,0,0.85);
+			text-shadow: none;
+		}
+
+		hr{
+			background: black;
+		}
+	}
+
+	.card-footer {
+		color: rgba(0,0,0,0.85);
+		text-shadow: none;
+		text-decoration: none;
+
+		a{
+			color: rgba(0,0,0,0.85);
+			text-shadow: none;
+			text-decoration: none;
+
+			&:hover{
+				//  color: rgba(255,255,255,.5);
+				 text-decoration: underline;
+			}
+		}
+	}
+
 }
 
 @media #{$phone}{
+
+	#text-name-nav{
+		display: block;
+	}
 
 	#imgtech {
 		position: absolute;
@@ -220,9 +288,9 @@
 		top: unset;
 	}
 
-	#img-datos{
-		visibility: hidden;
-	}
+	// #img-datos{
+	// 	visibility: hidden;
+	// }
 
 	.m-bottom-nav {
 		margin-bottom: 1rem;
