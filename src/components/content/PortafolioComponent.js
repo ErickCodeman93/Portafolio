@@ -61,7 +61,7 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/villacasalet.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Villa Casalet</h5>
+										<h5>- Villa Casalet</h5>
 										<p className="card-text card-text-portafolio">
 											Es un sitio que ofrece el servicio de hospedaje en Puerto Escondido Oaxaca, México en donde ayude en la realización del sitio en base a un diseño aprobado.
 										</p>
@@ -76,7 +76,7 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/fonatur.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Fonatur</h5>
+										<h5>- Fonatur</h5>
 										<p className="card-text card-text-portafolio">
 											Un desarrollo elaborado para el Fondo Nacional de Fomento al Turismo que consistió en un buscador de lotes unifamiliares, condominios, comerciales y hoteleros que buscan inversión en regiones turísticas mexicanas.
 										</p>
@@ -91,7 +91,7 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/grupomaya.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Grupo Maya</h5>
+										<h5>- Grupo Maya</h5>
 										<p className="card-text card-text-portafolio">
 											Realice soporte al sitio, ERP, aplicación móvil ( publicación en tiendas de aplicaciones ) y fui parte del equipo que realizó la versión 2 del CRM.
 										</p>
@@ -106,7 +106,7 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/muvop.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Muvop</h5>
+										<h5>- Muvop</h5>
 										<p className="card-text card-text-portafolio">
 											Muvop es una financiera que apoya a hombres, mujeres y negocios en donde colabore en la creación de la plataforma de cursos online que ayudan a fortalecer el crecimiento personal.
 										</p>
@@ -121,7 +121,7 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/NETW.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Net@Work</h5>
+										<h5>- Net@Work</h5>
 										<p className="card-text card-text-portafolio">
 											Es un espacio para el coworking, se encuentran en la colonia Roma de la CDMX. Llevé a cabo la realización del sitio web y participé en el desarrollo del punto de venta.
 										</p>
@@ -136,7 +136,7 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/televisa.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Televisa Regional</h5>
+										<h5>- Televisa Regional</h5>
 										<p className="card-text card-text-portafolio">
 											{/* Desarrolle una estructura para mostrar banners publicitarios en determinadas partes del sitio que funciona cuando una campaña es activada en google ads y colabore en la automatización que inserta páginas dentro del sitemap cada vez que se crea, borra o actualiza una nota la cual ayudó a indexarlas en los buscadores, al igual aporte un algoritmo que ayuda organizar las noticias de manera que no se repitiera la parte destacada con las subsecciones. */}
 											Desarrolle una estructura para mostrar banners publicitarios, colabore en la automatización de la inserción de páginas dentro del sitemap
@@ -153,9 +153,24 @@ export const PortafolioComponent = () => {
 									<img src={'./assets/scc.jpg'} className="card-img-top" alt="..." />
 									<div className="card-body">
 										<hr />
-										<h5>Sistema de Consulta de Contribuyentes</h5>
+										<h5>- Sistema de Consulta de Contribuyentes</h5>
 										<p className="card-text card-text-portafolio">
 											Aporte en la realización de sitios y el sistema enfocado en la búsqueda y monitoreo de contribuyentes que el Servicio de Administración Tributaria (SAT) reporta como incumplidos. 
+										</p>
+									</div>
+									<div className="card-footer text-rigth">
+										<a href={'https://sccontribuyentes.com'} target="_blank" rel="noopener noreferrer">Ir al sitio</a>
+									</div>
+								</div>
+							</div>
+							<div className="d-flex justify-content-center">
+								<div className="card" style={ { width: '18rem' }}>
+									<img src={'./assets/server.jpg'} className="card-img-top" alt="..." />
+									<div className="card-body">
+										<hr />
+										<h5>- Infraestructura</h5>
+										<p className="card-text card-text-portafolio">
+											He estado involucrado en diferentes actividades que involucran configuración creación y soporte de virtual host, creación de scripts en python y bash para la automatización y migración de dominios y sitios web.
 										</p>
 									</div>
 									<div className="card-footer text-rigth">
