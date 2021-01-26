@@ -93,46 +93,5 @@ export const NavBarComponent = () => {
 				</div>
 			</header>
 		</div>
-
-		// <nav className="navbar navbar-expand-sm navbar-light bg-light mb-5">
-		// 	<div className="container">
-		// 		<Link 
-		// 			className="navbar-brand" 
-		// 			to="/"
-		// 		>
-		// 			Inicio
-		// 		</Link>
-
-		// 		<div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
-		// 			<ul className="navbar-nav ml-auto">
-		// 				<NavLink 
-		// 					activeClassName="active"
-		// 					className="nav-item nav-link" 
-		// 					exact
-		// 					to="/aboutMe"
-		// 				>
-		// 					About Me
-		// 				</NavLink>
-
-		// 				<NavLink 
-		// 					activeClassName="active"
-		// 					className="nav-item nav-link" 
-		// 					exact
-		// 					to="/portafolio"
-		// 				>
-		// 					Portafolio
-		// 				</NavLink>
-		// 				<NavLink 
-		// 					activeClassName="active"
-		// 					className="nav-item nav-link" 
-		// 					exact
-		// 					to="/contact"
-		// 				>
-		// 					Contacto
-		// 				</NavLink>
-		// 			</ul>
-		// 		</div>
-		// 	</div>
-		// </nav>
 	)
 }

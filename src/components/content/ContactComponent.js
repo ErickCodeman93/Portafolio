@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { sweepingScreen } from '../../helpers/sweepingScreen';
 
-export const ContactComponent = () => {
+export const ContactComponent = ({ history, location }) => {
+
+	useEffect( () => {
+		sweepingScreen( history );
+	}, [ location, history ]);
+	
 	return (
 		<div className="cover-container m-auto">
 			<div className="container">

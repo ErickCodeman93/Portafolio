@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { sweepingScreen } from '../../helpers/sweepingScreen';
 
-export const AboutMeComponent = () => {
+export const AboutMeComponent = ({ history, location }) => {
 
 	const scrollBottom = ( e ) => {
 		e.preventDefault();
@@ -11,6 +12,10 @@ export const AboutMeComponent = () => {
 		e.preventDefault();
 		window.scrollTo(640, 0);
 	} //end function
+
+	useEffect( () => {
+		sweepingScreen( history );
+	}, [ location, history ]);
 
 	return (
 		<div className="cover-container animate__animated animate__fadeIn m-auto" >

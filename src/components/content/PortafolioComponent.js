@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { sweepingScreen } from '../../helpers/sweepingScreen';
 
-export const PortafolioComponent = () => {
+export const PortafolioComponent = ({ history, location }) => {
+
+	useEffect( () => {
+		sweepingScreen( history );
+	}, [ location, history ]);
 
 	const responsive = {
 		superLargeDesktop: {
@@ -170,7 +175,7 @@ export const PortafolioComponent = () => {
 										<hr />
 										<h5>- Infraestructura</h5>
 										<p className="card-text card-text-portafolio">
-											He estado involucrado en diferentes actividades que involucran configuración creación y soporte de virtual host, creación de scripts en python y bash para la automatización y migración de dominios y sitios web.
+											He trabajado en actividades que involucran la configuración, creación y soporte de virtual host, scripts para la automatización, migración de dominios y sitios web además de respaldos de bases de datos.
 										</p>
 									</div>
 									<div className="card-footer text-rigth">
